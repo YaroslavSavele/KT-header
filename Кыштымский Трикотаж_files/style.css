@@ -1298,7 +1298,12 @@ footer {
    align-items: center;
    margin-bottom: 14px;
 }
-
+.account {
+   position: absolute;
+   top: 15px;
+   left: 26px;
+   display: none;
+}
 .header__top-logo {
    display: block;
    margin-right: 30px;
@@ -1336,8 +1341,11 @@ footer {
    border: none;
 }
 .btn--exit:hover,
-.btn--exit:focus {
+.btn--exit:focus,
+.btn--exit:active {
    background-color: transparent;
+   outline: none;
+   border: none;
 }
 .btn-outline-secondary {
 }
@@ -1418,6 +1426,9 @@ footer {
       position: absolute;
       top: 15px;
       right: 26px;
+   }
+   .account {
+      display: block;
    }
 
    }
